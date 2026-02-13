@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kichwa Music Ads - Archivo de anuncios para aplicaciones">
+    <title>Kichwa Music Ads</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        
+        .welcome-message {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .ads-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1.1em;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 10px;
+        }
+        
+        .ads-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-top: 30px;
+            text-align: left;
+            border-radius: 5px;
+        }
+        
+        .info-box h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.3em;
+        }
+        
+        .info-box p {
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .code {
+            background: #2d3748;
+            color: #48bb78;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-family: 'Courier New', monospace;
+            text-align: left;
+            overflow-x: auto;
+        }
+        
+        footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Kichwa Music Ads</h1>
+        
+        <p class="welcome-message">
+            ¡Bienvenido! Este sitio aloja el archivo app-ads.txt para Kichwa Music.
+        </p>
+        
+        <a href="/app-ads.txt" class="ads-link">📄 Ver app-ads.txt</a>
+        
+        <div class="info-box">
+            <h2>¿Qué es app-ads.txt?</h2>
+            <p>
+                El archivo app-ads.txt es un estándar de la industria que permite a los desarrolladores 
+                de aplicaciones declarar quién está autorizado a vender su inventario de anuncios. 
+                Este archivo ayuda a prevenir el fraude publicitario y asegura que los anuncios sean 
+                legítimos.
+            </p>
+            
+            <div class="code">
+# Archivo disponible en:<br>
+https://ads.kichwamusic.com/app-ads.txt
+            </div>
+        </div>
+        
+        <footer>
+            &copy; 2026 Kichwa Music. Todos los derechos reservados.
+        </footer>
+    </div>
+</body>
+</html>
