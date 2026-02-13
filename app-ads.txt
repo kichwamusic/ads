@@ -1,5 +1,5 @@
 # ¡Bienvenido! Welcome to Kichwa Music Ads
-# Este archivo app-ads.txt está disponible en: http://ads.kichwamusic.com/app-ads.txt
-# This app-ads.txt file is available at: http://ads.kichwamusic.com/app-ads.txt
+# Este archivo app-ads.txt está disponible en: https://ads.kichwamusic.com/app-ads.txt
+# This app-ads.txt file is available at: https://ads.kichwamusic.com/app-ads.txt
 
 google.com, pub-6985579253746928, DIRECT, f08c47fec0942fa0
